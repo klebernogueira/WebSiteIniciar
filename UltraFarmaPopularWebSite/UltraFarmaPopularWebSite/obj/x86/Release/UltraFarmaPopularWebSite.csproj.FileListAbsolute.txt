@@ -77,3 +77,4 @@ C:\dsv\dotnet\projetos\vs2015\web\UltraFarmaPopularWebSite\UltraFarmaPopularWebS
 C:\dsv\dotnet\projetos\vs2015\web\UltraFarmaPopularWebSite\UltraFarmaPopularWebSite\bin\Microsoft.Owin.Security.Twitter.xml
 C:\dsv\dotnet\projetos\vs2015\web\UltraFarmaPopularWebSite\UltraFarmaPopularWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\dsv\dotnet\projetos\vs2015\web\UltraFarmaPopularWebSite\UltraFarmaPopularWebSite\obj\x86\Release\UltraFarmaPopularWebSite.dll
+C:\dsv\dotnet\projetos\vs2015\web\UltraFarmaPopularWebSite\UltraFarmaPopularWebSite\obj\x86\Release\UltraFarmaPopularWebSite.csprojResolveAssemblyReference.cache
