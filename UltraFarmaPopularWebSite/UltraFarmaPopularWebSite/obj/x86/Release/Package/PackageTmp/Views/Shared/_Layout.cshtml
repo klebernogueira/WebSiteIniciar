@@ -22,14 +22,31 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Sobre", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+                    @*<li>@Html.ActionLink("Sobre", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contato", "Contact", "Home")</li>*@
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Status
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li id="li-submenu-status"><a href="contato-despertando.php" target="blank">Banco de Dados</a></li>
+                            <li class="li-submenu-status" id="li-submenu-status"><a href="contato-profissionais.php" target="blank">WS</a></li>
+                        </ul>
+                        @*<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Ação</a>
+                            <a class="dropdown-item" href="#">Outra ação</a>
+                            <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        </div>*@
+                    </li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+                @*@Html.Partial("_LoginPartial")*@
             </div>
         </div>
     </div>
     <div class="container body-content">
+        <div class="container-fluid align-content-center">
+            <img class="img-responsive align-content-center" src="~/img/Kuiperfundo.png" alt="" />
+        </div>
         @RenderBody()
         <hr />
         <footer>
