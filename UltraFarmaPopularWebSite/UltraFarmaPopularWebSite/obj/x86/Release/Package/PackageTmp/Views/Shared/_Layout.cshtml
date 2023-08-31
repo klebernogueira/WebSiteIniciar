@@ -29,8 +29,10 @@
                             Status
                         </a>
                         <ul class="dropdown-menu">
-                            <li id="li-submenu-status"><a href="contato-despertando.php" target="blank">Banco de Dados</a></li>
-                            <li class="li-submenu-status" id="li-submenu-status"><a href="contato-profissionais.php" target="blank">WS</a></li>
+                            <li id="li-submenu-status">@Html.ActionLink("Sobre", "About", "Home")</li>
+                            <li id="li-submenu-status">@Html.ActionLink("Contato", "Contact", "Home")</li>
+                            @*<li id="li-submenu-status"><a href="contato-despertando.php" target="blank">Banco de Dados</a></li>
+                            <li class="li-submenu-status" id="li-submenu-status"><a href="contato-profissionais.php" target="blank">WS</a></li>*@
                         </ul>
                         @*<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Ação</a>
