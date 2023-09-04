@@ -26,5 +26,10 @@ namespace UltraFarmaPopularWebSite.Controllers
 
          return View();
       }
+        public ActionResult BancoDados()
+        {
+            ViewBag.Message = "Banco de Dados";
+            return View();
+        }
    }
 }
