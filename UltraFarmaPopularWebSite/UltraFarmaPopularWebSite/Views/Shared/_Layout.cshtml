@@ -17,22 +17,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("UltraFarma Popular (WebSite)", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("UltraFarma Popular", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Status </a>
-                    </li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="container body-content">
-        <div>
-            <iframe width="1200" height="650" src="https://lookerstudio.google.com/embed/reporting/b50ba2dd-61c9-4c35-ab25-a962f4533208/page/g1SbD" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
 
         @RenderBody()
         <hr />
